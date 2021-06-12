@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDetailActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerItemDetailImages"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"></androidx.viewpager.widget.ViewPager>
+
+        <TextView
+            android:id="@+id/textViewItemDetailName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:gravity="center">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewItemDetailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewItemDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="+ Là item không thể thiếu trong tủ đồ vì sự thoải mái, dễ chịu, lại rất dễ phối đồ\n+ Áo thun unisex form rộng có thể phối nhiều item khác nhau (demim, flannel, short, jogger.....) mang tới phong cách năng động, cá tính cho người mặc.\n+ Sản phẩm 100% cotton, đường may tinh tế chắc chắn với bề mặt vải mềm mại, thấm hút mồ hôi tốt tạo cảm giác thoáng mát cho người mặc.\n+ Form áo cơ bản, vừa vặn cơ thể, thoải mái theo từng cử động.\n+ Không ra màu, không bai, không xù, không bám dính\n+ Họa tiết được in lên trước ngực áo, có độ bền cao."
+            android:textSize="16sp"></TextView>
+
+        <Button
+            android:id="@+id/buttonAddToCart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#313131"
+            android:backgroundTint="#313131"
+            android:text="Add To Cart"
+            app:backgroundTint="@color/custom_black"
+            android:layout_gravity="center">
+
+        </Button>
+    </LinearLayout>
+
+
+</ScrollView>

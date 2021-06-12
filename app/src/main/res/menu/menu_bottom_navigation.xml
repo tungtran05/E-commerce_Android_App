@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mTshirts"
+        android:icon="@drawable/ic_tshirt"
+        android:title="T-shirt" />
+
+    <item
+        android:id="@+id/mPants"
+        android:icon="@drawable/ic_pants"
+        android:title="Pants" />
+
+    <item
+        android:id="@+id/mBags"
+        android:icon="@drawable/ic_backpack"
+        android:title="Bags" />
+
+    <item
+        android:id="@+id/mCart"
+        android:icon="@drawable/ic_outline_shopping_cart_30"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/mUser"
+        android:icon="@drawable/ic_outline_account_circle_30"
+        android:title="User" />
+</menu>
